@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  namespace: backend-namespace 
+  labels:
+    app: backend_mathtraining
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend_mathtraining
+  template:
+    metadata:
+      labels:
+        app: backend_mathtraining
+    spec:
+      containers:
+      - name: backend-mathtraining
+        image: karol301/backend_mathtraining:latest
+        ports:
+        - containerPort: 5000
