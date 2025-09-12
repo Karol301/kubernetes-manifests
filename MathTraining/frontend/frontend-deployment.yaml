@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend-deployment
-  namespace: frontend-namespace 
+  namespace: frontend-namespace
   labels:
     app: frontend_mathtraining
 spec:
@@ -19,4 +19,4 @@ spec:
       - name: frontend-mathtraining
         image: karol301/frontend_mathtraining:latest
         ports:
-        - containerPort: 80
+          - containerPort: 80
