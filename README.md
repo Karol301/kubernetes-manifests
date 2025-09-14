@@ -15,3 +15,8 @@ MATHTRAINIG - Aplikacja składa się z frontendu i backendu, zasoby kubernetesa 
 3.Services
 
 <img width="970" height="258" alt="image" src="https://github.com/user-attachments/assets/5a95fea8-b66b-4c0e-900c-4d11f5c077bf" />
+
+
+4.Horizontal autoscaling 
+
+<img width="1148" height="527" alt="image" src="https://github.com/user-attachments/assets/ce425745-523d-4d54-8bdb-0a1611ddad8c" />
